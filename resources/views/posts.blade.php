@@ -29,7 +29,7 @@
                 <img src="{{ asset('/storage/' . $posts[0]->image) }}" class="card-img-top mt-3" alt="{{ $posts[0]->category->name }}" class="img-fluid">                     
             </div>
         @else
-            <img src="https://source.unsplash.com/1200x400/?{{ $post->category->name }}" class="card-img-top mt-3" alt="{{ $post->category->name }}">
+            {{-- <img src="https://source.unsplash.com/1200x400/?{{ $posts->category->name }}" class="card-img-top mt-3" alt="{{ $posts->category->name }}"> --}}
         @endif
 
         <div class="card mb-3">
